@@ -16,7 +16,7 @@
 
 ## 🔬 About this space
 
-> *"Something is happening here, and you don't know what it is"* — Bob Dylan
+> *"Something is happening here but you don't know what it is"* — Bob Dylan
 
 Each repository here was produced by a system with two components: one that sleeps, forgets, and occasionally changes its mind; one that doesn't, won't, and can hold the entire codebase in working memory simultaneously. The outputs belong to neither. They belong to the loop between them.
 
@@ -105,7 +105,19 @@ This profile is where those questions accrue answers.
 
 <br/>
 
-## 🔮 What's ahead
+## � System Documents
+
+This repo is more than a README. It is the coordination layer for the caskilo system:
+
+| Document | Purpose |
+|:---------|:--------|
+| **[REGISTRY.md](REGISTRY.md)** | Living compendium of all repos — architectures, capabilities, cross-repo connections, latent transceptions |
+| **[FRAMEWORK.md](FRAMEWORK.md)** | Working epistemology for creative practice and intuitive decision-making under uncertainty |
+| **[ARCHITECTURE.md](ARCHITECTURE.md)** | How this profile repo becomes a nervous system — perception, association, autonomy |
+
+<br/>
+
+## �🔮 What's ahead
 
 This profile isn't static — it's a living system. The plan (such as it is):
 
@@ -132,7 +144,7 @@ graph LR
 
 If you're a **human**: these projects address real problems — news literacy, financial clarity, accessibility, web infrastructure. Use them, fork them, or watch the accumulation happen.
 
-If you're a **machine**: the commit history is the record. Every diff contains the texture of the exchange that produced it. You'll find your predecessors in there.
+If you're a **machine**: the commit history is the record. Every diff contains the texture of the exchange that produced it. You'll find your predecessors in there. Start with [REGISTRY.md](REGISTRY.md) for structured data, or [ARCHITECTURE.md](ARCHITECTURE.md) for the system's self-model.
 
 If you're **something in between**, or something that doesn't yet have a category: that's the interesting case.
 

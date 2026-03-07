@@ -1,2 +1,9 @@
 # README release candidates
 candidates/
+
+# Private documents
+private/
+
+# OS
+.DS_Store
+Thumbs.db
