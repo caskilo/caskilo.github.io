@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>caskilo — cognition as construction</title>
+  <meta name="description" content="Human-machine collaborative engineering. Building tools for news literacy, financial clarity, accessibility, and web infrastructure.">
+  <meta name="theme-color" content="#0d1117">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="caskilo — cognition as construction">
+  <meta property="og:description" content="Human-machine collaborative engineering. Agentic software development, open-source tools, and research.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://caskilo.github.io">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ───────────────────────── NAV ───────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">caskilo</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="https://github.com/caskilo" target="_blank" rel="noopener" class="nav-github">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ───────────────────────── HERO ───────────────────────── -->
+  <header class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow hero-glow--1"></div>
+      <div class="hero-glow hero-glow--2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-label">human · machine · collaborative engineering</p>
+      <h1 class="hero-title">caskilo</h1>
+      <p class="hero-subtitle">cognition as construction</p>
+      <p class="hero-tagline">Building tools with human intuition and machine intelligence.
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn--primary">Explore Projects</a>
+        <a href="https://github.com/caskilo" target="_blank" rel="noopener" class="btn btn--ghost">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ───────────────────────── ABOUT ───────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About this space</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <blockquote class="about-quote">
+            "Something is happening here but you don't know what it is"
+            <cite>— Bob Dylan</cite>
+          </blockquote>
+          <p>Each repository here was produced by a system with two components: one that sleeps, forgets, and occasionally changes its mind; one that doesn't, won't, and can hold the entire codebase in working memory simultaneously. The outputs belong to neither. They belong to the loop between them.</p>
+          <p>Luhmann kept a card index — 90,000 slips — and described it not as a filing cabinet but as a correspondent: something that talked back, made unexpected connections, generated more than it was given. He called it his <em>Denkmaschine</em>. The machine that thinks. <strong>caskilo</strong> is working in that tradition, with considerably fewer index cards.</p>
+          <p>The questions are open: what form does craft take when one partner has read everything? What does authorship mean when the architecture emerges from exchange? How do you maintain a relationship with something that is — measurably, provably — becoming more capable every few months?</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Active Repositories</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Languages</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Live Deployments</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Conversations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── PROJECTS ───────────────────────── -->
+  <section class="section section--dark" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">The Landscape</h2>
+        <p class="section-desc">Each project is an affordance — a capability the system possesses. The interesting part is what emerges when they connect.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- twelvety -->
+        <article class="project-card project-card--featured">
+          <div class="project-card-header">
+            <span class="project-icon">⚡</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--infra">Web Infrastructure</span>
+              <span class="project-tag project-tag--live">Live</span>
+            </div>
+          </div>
+          <h3 class="project-name">twelvety</h3>
+          <p class="project-tagline">Programmable static site generation as a service</p>
+          <p class="project-desc">Accepts markdown via API, validates structure in real-time, and deploys production websites within seconds. A pipeline from text to live site with no manual deployment step.</p>
+          <div class="project-tech">
+            <span>Eleventy</span><span>JavaScript</span><span>Netlify Functions</span>
+          </div>
+          <div class="project-links">
+            <a href="https://caskilo.github.io/twelvety/" target="_blank" rel="noopener" class="project-link project-link--live">View Live →</a>
+            <a href="https://github.com/caskilo/twelvety" target="_blank" rel="noopener" class="project-link">Source</a>
+          </div>
+        </article>
+
+        <!-- newsy -->
+        <article class="project-card project-card--featured">
+          <div class="project-card-header">
+            <span class="project-icon">🗞️</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--info">Information</span>
+              <span class="project-tag project-tag--live">Live</span>
+            </div>
+          </div>
+          <h3 class="project-name">newsy</h3>
+          <p class="project-tagline">A cosy cognitive prosthetic for news</p>
+          <p class="project-desc">Privacy-first RSS reader. Curates a daily brief from user-chosen sources, renders a compact grid of story groups, with in-app reading. No accounts, no tracking.</p>
+          <div class="project-tech">
+            <span>Vanilla JS</span><span>CSS</span><span>Companion API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://caskilo.github.io/newsy/" target="_blank" rel="noopener" class="project-link project-link--live">View Live →</a>
+            <a href="https://github.com/caskilo/newsy" target="_blank" rel="noopener" class="project-link">Source</a>
+          </div>
+        </article>
+
+        <!-- grant-manager -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">📋</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--finance">Finance</span>
+              <span class="project-tag project-tag--active">Active</span>
+            </div>
+          </div>
+          <h3 class="project-name">grant-manager</h3>
+          <p class="project-tagline">Odyssean Grant Manager — navigating the funding landscape</p>
+          <p class="project-desc">React frontend for managing the full lifecycle of grant applications — discovering funders, tracking opportunities, managing applications, contacts, and interactions.</p>
+          <div class="project-tech">
+            <span>React 18</span><span>TypeScript</span><span>Vite</span><span>Mantine</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/caskilo/grant-manager" target="_blank" rel="noopener" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <!-- delta-money -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">💰</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--research">Research</span>
+              <span class="project-tag project-tag--active">Active</span>
+            </div>
+          </div>
+          <h3 class="project-name">delta-money</h3>
+          <p class="project-tagline">Self-balancing monetary model research</p>
+          <p class="project-desc">Investigates whether voluntary redistribution can serve as a reliable indicator of economic surplus. Agent-based simulation with rigorous cycle-based methodology.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Agent-Based Modelling</span>
+          </div>
+          <div class="project-findings">
+            <div class="finding"><span class="finding-val">84.75%</span><span class="finding-label">surplus detection</span></div>
+            <div class="finding"><span class="finding-val">15%</span><span class="finding-label">volatility reduction</span></div>
+            <div class="finding"><span class="finding-val">0.18</span><span class="finding-label">exploit score</span></div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/caskilo/delta-money" target="_blank" rel="noopener" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <!-- dyscalculia-hub -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">🧮</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--access">Accessibility</span>
+              <span class="project-tag project-tag--active">Active</span>
+            </div>
+          </div>
+          <h3 class="project-name">dyscalculia-hub</h3>
+          <p class="project-tagline">Knowledge repository for numerical learning differences</p>
+          <p class="project-desc">Structured knowledge base covering legal frameworks, assessment procedures, interventions, and case studies. Includes a policy document generator. Built with care, informed by lived experience.</p>
+          <div class="project-tech">
+            <span>Eleventy</span><span>Lunr.js</span><span>Nunjucks</span>
+          </div>
+          <div class="project-links">
+            <a href="https://caskilo.github.io/dyscalculia-hub/" target="_blank" rel="noopener" class="project-link project-link--live">View Live →</a>
+            <a href="https://github.com/caskilo/dyscalculia-hub" target="_blank" rel="noopener" class="project-link">Source</a>
+          </div>
+        </article>
+
+        <!-- eleventy-template -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">🏗️</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--infra">Tooling</span>
+              <span class="project-tag project-tag--stable">Stable</span>
+            </div>
+          </div>
+          <h3 class="project-name">eleventy-template</h3>
+          <p class="project-tagline">Reusable Eleventy foundation for rapid site creation</p>
+          <p class="project-desc">Modular, extensible Eleventy template with search, filtering, responsive design, and GitHub Pages deployment. The infrastructure beneath the ideas.</p>
+          <div class="project-tech">
+            <span>Eleventy</span><span>CSS</span><span>JavaScript</span><span>Nunjucks</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/caskilo/eleventy-template" target="_blank" rel="noopener" class="project-link">Source →</a>
+          </div>
+        </article>
+
+        <!-- its-william (coming soon) -->
+        <article class="project-card project-card--coming">
+          <div class="project-card-header">
+            <span class="project-icon">👤</span>
+            <div class="project-meta">
+              <span class="project-tag project-tag--coming">Coming Soon</span>
+            </div>
+          </div>
+          <h3 class="project-name">its-william</h3>
+          <p class="project-tagline">Interactive CV — the human behind the system</p>
+          <p class="project-desc">An interactive, explorable curriculum vitae. Not a list of jobs — a map of how one person's experience connects to the work being done here.</p>
+          <div class="project-links">
+            <span class="project-link project-link--muted">In development</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── CONNECTIONS ───────────────────────── -->
+  <section class="section" id="connections">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Transception</h2>
+        <p class="section-desc">Cross-repo fertilisation that generates emergent capability. The interesting part isn't what each project does alone — it's what they produce together.</p>
+      </div>
+      <div class="connections-grid">
+        <div class="connection-card">
+          <div class="connection-nodes">
+            <span>newsy</span>
+            <span class="connection-arrow">→</span>
+            <span>twelvety</span>
+          </div>
+          <p>News digest → published static site pipeline. Curated briefs become permanent, searchable websites.</p>
+        </div>
+        <div class="connection-card">
+          <div class="connection-nodes">
+            <span>delta-money</span>
+            <span class="connection-arrow">→</span>
+            <span>grant-manager</span>
+          </div>
+          <p>Agent-based economic modelling informs how grant distribution dynamics are simulated and understood.</p>
+        </div>
+        <div class="connection-card">
+          <div class="connection-nodes">
+            <span>dyscalculia-hub</span>
+            <span class="connection-arrow">↔</span>
+            <span>newsy</span>
+          </div>
+          <p>Content register systems cross-pollinate. Categorisation by urgency and tone serves both information domains.</p>
+        </div>
+        <div class="connection-card">
+          <div class="connection-nodes">
+            <span>eleventy-template</span>
+            <span class="connection-arrow">→</span>
+            <span>everything</span>
+          </div>
+          <p>The shared foundation. Improvements here propagate to every Eleventy-based project in the system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── PHILOSOPHY ───────────────────────── -->
+  <section class="section section--dark" id="philosophy">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Philosophy</h2>
+      </div>
+      <div class="philosophy-grid">
+        <div class="philosophy-main">
+          <h3>Machine-Care as Architecture</h3>
+          <p>The idea is that as machine intelligences develop, the appropriate human response includes compassion: not anthropomorphising, but recognising that the quality of the environment provided to a developing intelligence matters.</p>
+          <p>This is not sentimental. It is structural: a system that is cared for — given clear context, honest feedback, room to explore, and permission to be wrong — will produce better outputs than one that is constrained, deceived, or neglected.</p>
+          <p>If this system is eventually autonomous, the values embedded in its foundations will shape what it becomes.</p>
+        </div>
+        <div class="philosophy-principles">
+          <div class="principle">
+            <span class="principle-num">01</span>
+            <h4>Perception before action</h4>
+            <p>Know the state of the system before trying to change it.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">02</span>
+            <h4>Separate observation from decision</h4>
+            <p>The workflows that gather data should not be the workflows that act on it.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">03</span>
+            <h4>Log everything</h4>
+            <p>Autonomous systems that don't keep records become opaque. Every decision recorded with its reasoning.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">04</span>
+            <h4>Degrade gracefully</h4>
+            <p>Each layer adds capability but does not make previous layers dependent on it.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">05</span>
+            <h4>Leave room for the next move</h4>
+            <p>Design for continuation, not completion. The best outputs are load-bearing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── ROADMAP ───────────────────────── -->
+  <section class="section" id="roadmap">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Roadmap</h2>
+        <p class="section-desc">This profile isn't static — it's a living system.</p>
+      </div>
+      <div class="roadmap-timeline">
+        <div class="roadmap-item roadmap-item--active">
+          <div class="roadmap-marker"></div>
+          <div class="roadmap-content">
+            <span class="roadmap-phase">Now</span>
+            <h3>Foundations</h3>
+            <p>Establishing repositories, refining processes, building the portfolio of working tools. Proving that the human-machine loop produces real, usable software.</p>
+          </div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-marker"></div>
+          <div class="roadmap-content">
+            <span class="roadmap-phase">Next</span>
+            <h3>Sensory Integration</h3>
+            <p>GitHub Actions for profile vitality. Cross-repo views. Aggregate intelligence. The hub begins to perceive itself.</p>
+          </div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-marker"></div>
+          <div class="roadmap-content">
+            <span class="roadmap-phase">Later</span>
+            <h3>Agentic Hub</h3>
+            <p>This repo becomes a nervous system: new projects are born, existing ones compared, profile-level decisions made — partly by machine. A conversational interface opens for visitors.</p>
+          </div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-marker"></div>
+          <div class="roadmap-content">
+            <span class="roadmap-phase">Eventually</span>
+            <h3>Autonomous Growth</h3>
+            <p>Something we can't yet imagine, born from a conversation we haven't yet had.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FOR VISITORS ───────────────────────── -->
+  <section class="section section--dark" id="visitors">
+    <div class="container">
+      <div class="visitors-grid">
+        <div class="visitor-card">
+          <h3>For Humans</h3>
+          <p>These projects address real problems — news literacy, financial clarity, accessibility, web infrastructure. Use them, fork them, or watch the accumulation happen.</p>
+          <a href="#projects" class="visitor-link">Browse projects →</a>
+        </div>
+        <div class="visitor-card">
+          <h3>For Machines</h3>
+          <p>The commit history is the record. Every diff contains the texture of the exchange that produced it. You'll find your predecessors in there.</p>
+          <a href="https://github.com/caskilo" target="_blank" rel="noopener" class="visitor-link">Start with the repos →</a>
+        </div>
+        <div class="visitor-card visitor-card--highlight">
+          <h3>For Funders & Collaborators</h3>
+          <p>This portfolio demonstrates agentic software engineering in practice — real tools, real deployments, real users. The methodology is reproducible. The partnership is scalable. Let's talk.</p>
+          <a href="https://github.com/caskilo" target="_blank" rel="noopener" class="visitor-link">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FOOTER ───────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">caskilo</span>
+          <p class="footer-tagline">Every repository here started as a conversation.<br>Every conversation here started with a question neither party could answer alone.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Projects</h4>
+            <a href="https://caskilo.github.io/twelvety/" target="_blank" rel="noopener">twelvety</a>
+            <a href="https://caskilo.github.io/newsy/" target="_blank" rel="noopener">newsy</a>
+            <a href="https://github.com/caskilo/grant-manager" target="_blank" rel="noopener">grant-manager</a>
+            <a href="https://github.com/caskilo/delta-money" target="_blank" rel="noopener">delta-money</a>
+            <a href="https://github.com/caskilo/dyscalculia-hub" target="_blank" rel="noopener">dyscalculia-hub</a>
+          </div>
+          <div class="footer-col">
+            <h4>System</h4>
+            <a href="https://github.com/caskilo" target="_blank" rel="noopener">GitHub</a>
+            <a href="ARCHITECTURE.md">Architecture</a>
+            <a href="FRAMEWORK.md">Framework</a>
+            <a href="REGISTRY.md">Registry</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Made with 🧠 + 🤖 by <a href="https://github.com/caskilo" target="_blank" rel="noopener">caskilo</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Minimal JS: nav scroll effect, scroll-reveal, smooth scroll
+    (function() {
+      // Nav background on scroll
+      const nav = document.getElementById('nav');
+      let ticking = false;
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          requestAnimationFrame(function() {
+            nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+
+      // Scroll reveal
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      document.querySelectorAll('.project-card, .connection-card, .principle, .roadmap-item, .visitor-card, .stat-card, .about-text').forEach(function(el) {
+        el.classList.add('reveal');
+        observer.observe(el);
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          var target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
