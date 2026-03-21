@@ -1,0 +1,62 @@
+<svg width="800" height="850" viewBox="0 0 800 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#161B22"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 250) rotate(90) scale(300 320)">
+      <stop stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 860) rotate(90) scale(240 220)">
+      <stop stop-color="#22C55E" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="850" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="752" height="802" rx="20" stroke="#30363D"/>
+
+  <g opacity="0.22">
+    <path d="M0 100H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 200H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 300H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 400H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 500H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 600H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 700H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 800H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 900H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M0 1000H900" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M80 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M160 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M240 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M320 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M400 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M480 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M560 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M640 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M720 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <path d="M800 0V1200" stroke="#A78BFA" stroke-opacity="0.12"/>
+  </g>
+
+  <ellipse cx="380" cy="250" rx="320" ry="300" fill="url(#glow1)"/>
+  <ellipse cx="700" cy="860" rx="220" ry="240" fill="url(#glow2)"/>
+
+  <text x="84" y="120" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="18" letter-spacing="2.8">HUMAN · MACHINE · COLLABORATIVE ENGINEERING</text>
+  <text x="84" y="255" fill="#E6EDF3" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="600">caskilo</text>
+  <text x="84" y="310" fill="#8B949E" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-style="italic">agentic software engineering</text>
+
+  <text x="84" y="410" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="30">A software workshop and potting shed,</text>
+  <text x="84" y="452" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="30">set in a garden of big ideas.</text>
+  <text x="84" y="528" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="26">Enter the site to explore projects, philosophy,</text>
+  <text x="84" y="566" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="26">and the evolving system.</text>
+
+  <rect x="84" y="648" width="292" height="74" rx="14" fill="url(#cta)"/>
+  <text x="133" y="695" fill="#0D1117" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Enter Profile →</text>
+
+</svg>

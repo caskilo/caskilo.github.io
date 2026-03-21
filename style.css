@@ -701,6 +701,171 @@ img { max-width: 100%; display: block; }
   max-width: 36rem;
 }
 
+/* ── Hire Us ─────────────────────────────────────────────── */
+.hire-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+.hire-panel,
+.hire-card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+}
+.hire-panel--accent {
+  border-color: var(--accent-dim);
+  background: linear-gradient(135deg, var(--bg-raised), rgba(167, 139, 250, 0.06));
+}
+.hire-kicker {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.hire-panel h3,
+.hire-card h3 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+.hire-panel p,
+.hire-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.hire-offerings {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.hire-offering {
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--border);
+}
+.hire-offering h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+.hire-offering p {
+  font-size: 0.9rem;
+}
+.hire-steps {
+  margin: 1.25rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+}
+.hire-steps li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+.hire-steps code {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  background: var(--bg-deep);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+}
+.hire-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.hire-footnote {
+  margin-top: 1.25rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.6;
+}
+.hire-fit-list {
+  margin-top: 0.9rem;
+  padding-left: 1rem;
+  color: var(--text-secondary);
+}
+.hire-fit-list li {
+  margin-bottom: 0.55rem;
+}
+
+/* ── Modal ──────────────────────────────────────────────── */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  animation: fade-in 0.2s var(--ease-out);
+}
+.modal-backdrop[hidden] { display: none; }
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.modal {
+  position: relative;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: 20px;
+  padding: 2.5rem;
+  max-width: 38rem;
+  width: 100%;
+  animation: modal-up 0.25s var(--ease-out);
+}
+@keyframes modal-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.modal h2 {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.75rem;
+}
+.modal > p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+.modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.modal-close:hover {
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+.modal-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+}
+
 /* ── Visitors ────────────────────────────────────────────── */
 .visitors-grid {
   display: grid;
@@ -811,6 +976,9 @@ img { max-width: 100%; display: block; }
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+  .hire-cols {
+    grid-template-columns: 1fr;
+  }
   .visitors-grid {
     grid-template-columns: 1fr;
   }
@@ -829,6 +997,10 @@ img { max-width: 100%; display: block; }
   }
   .connections-grid {
     grid-template-columns: 1fr;
+  }
+  .hire-panel,
+  .hire-card {
+    padding: 1.5rem;
   }
   .hero-title {
     font-size: clamp(2.5rem, 12vw, 4.5rem);
