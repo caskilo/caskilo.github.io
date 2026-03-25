@@ -9,7 +9,7 @@
 [![Views](https://komarev.com/ghpvc/?username=caskilo&style=for-the-badge&color=22c55e&label=Visitors)](https://github.com/caskilo)
 
 <p>
-  <a href="https://caskilo.github.io/caskilo">
+  <a href="https://caskilo.github.io/">
     <picture>
       <source media="(max-width: 640px)" srcset="./profile-portrait.svg" />
       <img src="./profile-landscape.svg" alt="Enter the caskilo HTML profile" />
@@ -18,7 +18,7 @@
 </p>
 
 <p>
-  <a href="https://caskilo.github.io/caskilo"><strong>Enter the HTML profile</strong></a>
+  <a href="https://caskilo.github.io/"><strong>Enter the HTML profile</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/caskilo?tab=repositories">Browse repositories</a>
   &nbsp;·&nbsp;
